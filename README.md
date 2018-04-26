@@ -7,4 +7,5 @@ this it contains a example grumphp.yml `doc/geumphp.example.yml` for projects.
 
 	composer config repositories.grumphp-req '{"type": "vcs", "url": "https://github.com/plus-muc/grumphp-req-package.git"}'
 	composer require --dev pluswerk/grumphp-req-package
+	cp vendor/pluswerk/grumphp-req-package/doc/geumphp.example.yml grumphp.yml
 	./vendor/bin/grumphp git:init
