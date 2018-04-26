@@ -1,0 +1,19 @@
+{
+  "name": "pluswerk/grumphp-req-package",
+  "description": "This package requires all necessary packages for grumphp and code sniffers etc.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Hofer",
+      "email": "sebastian.hofer@pluswerk.ag",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "phpro/grumphp": "^0.14.0",
+    "squizlabs/php_codesniffer": "^3.2",
+    "jakub-onderka/php-parallel-lint": "^1.0",
+    "sensiolabs/security-checker": "^4.1",
+    "pluswerk/grumphp-xliff-task": "^2.1"
+  }
+}
